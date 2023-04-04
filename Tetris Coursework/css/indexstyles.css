@@ -1,0 +1,70 @@
+ul.navlist {
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: blue;
+  }
+  
+  li a {
+    display: block;
+    padding: 10px;
+    color: #f2f2f2;
+    font-size: 12px;
+    font-family: Arial;
+    font-weight: 700;
+  }
+  
+  li:first-child{ float:left }
+
+  li {
+    float: right;
+  }
+  
+div.content {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  background-color:#c7c7c7 ;
+  box-shadow: 5px 5px;
+
+}
+div.main {
+  background-image: url('../tetris.png');
+  background-size: 95%;
+  width: 100%;
+  height:100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+label {
+  display: inline-block;
+  text-align:right;
+  width: 45%;
+  clear: left;
+}
+input {
+  display: inline-block;
+}
+p{
+  text-align:center;
+}
+
+table.leaderboard{
+  border-spacing: 2px;
+  border: 1px solid;
+}
+  
+.grid{
+  background-image: url("../tetris-grid-bg.png");
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 600px;
+  background-color: red;
+  display: flex;
+  flex-wrap: wrap;
+}
+.grid div{
+  width:30px;
+  height: 30px;
+}
+  
